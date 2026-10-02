@@ -1,10 +1,8 @@
-# AI-Powered Resume Analyzer 🚀
+# AI-Powered Resume Analyzer 
 
 A modern, full-stack web application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS). By leveraging **Google Gemini AI**, the system compares your resume against a target Job Description (JD) to provide a comprehensive match score, keyword analysis, and actionable AI-driven rewrite recommendations.
 
-![AI Resume Analyzer Mockup](https://raw.githubusercontent.com/chatpethk444/AI-Resume-Analyzer/main/frontend/public/window.svg) <!-- Replace with actual screenshot later -->
-
-## ✨ Key Features
+## Key Features
 - **Intelligent ATS Scoring:** Calculates an overall match percentage based on the alignment between your resume and the target JD.
 - **Keyword Gap Analysis:** Automatically extracts and compares critical skills and keywords, highlighting what's matched and what's missing.
 - **Strengths & Weaknesses:** Identifies your core strengths and critical weaknesses to help you understand your competitive edge.
@@ -12,7 +10,7 @@ A modern, full-stack web application designed to help job seekers optimize their
 - **PDF Resume Parsing:** Seamlessly extracts text from standard PDF resumes.
 - **Guest & Authenticated Modes:** Try it out instantly as a guest, or log in via Supabase to save your scan history.
 
-## 🛠️ Technology Stack
+## Technology Stack
 **Frontend (Client)**
 - [Next.js 15](https://nextjs.org/) (React Framework)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -27,7 +25,7 @@ A modern, full-stack web application designed to help job seekers optimize their
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites
 Ensure you have the following installed:
@@ -79,7 +77,7 @@ Open your browser and navigate to `http://localhost:3002`.
 
 ---
 
-## 🗄️ Database Schema (Supabase)
+## Database Schema (Supabase)
 If you wish to utilize the history feature, execute the following SQL in your Supabase SQL Editor:
 ```sql
 CREATE TABLE resumes (
